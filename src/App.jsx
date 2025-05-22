@@ -6,7 +6,7 @@ import Flower from "./Flower";
 function App() {
   return (
     <div className="app-container">
-      <h1>Gājienu palīgs</h1>
+      <h1>Gājienu palīgs, monēta un puķe</h1>
 
       <div className="component-wrapper">
         <Dice />
