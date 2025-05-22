@@ -6,10 +6,10 @@ import tails from "./assets/coin/tails.webp";
 const headTail = [heads, tails];
 
 function Coin() {
-  const [side, setSide] = useState(0); // 0 = heads, 1 = tails
+  const [side, setSide] = useState(0);
 
   function flipCoin() {
-    const result = Math.floor(Math.random() * 2); // 0 or 1
+    const result = Math.floor(Math.random() * 2); 
     setSide(result);
   }
 
